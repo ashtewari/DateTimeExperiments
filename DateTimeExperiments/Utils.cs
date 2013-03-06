@@ -18,14 +18,13 @@
         /// <summary>
         /// The eastern U.S. time zone
         /// </summary>
-        private static readonly NodaTime.DateTimeZone BclEast = NodaTime.DateTimeZoneProviders.Bcl.GetZoneOrNull("Eastern Standard Time");
-        
-        
-        private static readonly TimeZoneInfo EasternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
+        internal static readonly NodaTime.DateTimeZone BclEast = NodaTime.DateTimeZoneProviders.Bcl.GetZoneOrNull("Eastern Standard Time");
+                
+        internal static readonly TimeZoneInfo EasternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
 
-        private static readonly NodaTime.DateTimeZone TzEast = NodaTime.DateTimeZoneProviders.Tzdb.GetZoneOrNull("America/New_York");
+        internal static readonly NodaTime.DateTimeZone TzEast = NodaTime.DateTimeZoneProviders.Tzdb.GetZoneOrNull("America/New_York");
 
-        private static readonly ZoneLocalMappingResolver CustomResolver = Resolvers.CreateMappingResolver(Resolvers.ReturnLater, Resolvers.ReturnStartOfIntervalAfter);
+        internal static readonly ZoneLocalMappingResolver CustomResolver = Resolvers.CreateMappingResolver(Resolvers.ReturnLater, Resolvers.ReturnStartOfIntervalAfter);
 
         public static DateTime GetUtc(DateTime ts)
         {

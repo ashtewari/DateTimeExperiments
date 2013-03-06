@@ -24,7 +24,7 @@ namespace DateTimeExperiments
         {
             var current = new DateTime(1900, 1, 1);
 
-            using (System.IO.TextWriter writer = new StreamWriter("C:\\temp\\dstNoda.csv"))
+            using (System.IO.TextWriter writer = new StreamWriter("dstNoda.csv"))
             {
                 writer.WriteLine(CompareUtcValues(null));
 
