@@ -21,7 +21,7 @@
         /// </summary>
         internal static readonly NodaTime.DateTimeZone BclEast = NodaTime.DateTimeZoneProviders.Bcl.GetZoneOrNull("Eastern Standard Time");
                 
-        internal static readonly TimeZoneInfo EasternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
+        public static readonly TimeZoneInfo EasternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
 
         internal static readonly NodaTime.DateTimeZone TzEast = NodaTime.DateTimeZoneProviders.Tzdb.GetZoneOrNull("America/New_York");
 
@@ -76,8 +76,8 @@
              */
             var ruleStart = TimeZoneInfo.TransitionTime.CreateFloatingDateRule(new DateTime(1, 1, 1, 2, 0, 0), 03, 05, DayOfWeek.Sunday);
             var ruleEnd = TimeZoneInfo.TransitionTime.CreateFloatingDateRule(new DateTime(1, 1, 1, 2, 0, 0), 10, 05, DayOfWeek.Sunday);
-            var adjustment = TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule(new DateTime(1918, 1, 1), new DateTime(1919, 12, 31), delta,
-                                                                       ruleStart, ruleEnd);
+            var adjustment = TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule(new DateTime(1918, 1, 1), new DateTime(1919, 12, 31), delta, ruleStart, ruleEnd);
+
             listOfAdjustments.Add(adjustment);
 
             /*
