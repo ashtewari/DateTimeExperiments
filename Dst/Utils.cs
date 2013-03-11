@@ -59,6 +59,19 @@
         }
 
         /// <summary>
+        /// Determines whether [is daylight saving time using custom time zone] [the specified ts].
+        /// </summary>
+        /// <param name="ts">The ts.</param>
+        /// <returns>
+        ///   <c>true</c> if [is daylight saving time using custom time zone] [the specified ts]; otherwise, <c>false</c>.
+        /// </returns>
+        public static bool IsDaylightSavingTimeUsingCustomTimeZone(DateTime ts)
+        {
+            var tz = CreateCustomTimeZoneInfoWithDstRules();
+            return tz.IsDaylightSavingTime(ts);
+        }
+
+        /// <summary>
         /// Creates the custom time zone info with DST rules.
         /// </summary>
         /// <returns>The custom time zone.</returns>
