@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dst.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:DateTimeExperiments.Moles.MExtensions">
+            <summary>Mole type of <see cref="T:DateTimeExperiments.Extensions"/>
+            .</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MExtensions.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MExtensions.IsDaylightSavingTimeZonedDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Extensions.IsDaylightSavingTime(NodaTime.ZonedDateTime)"/>
+            </summary>
+        </member>
+        <member name="T:DateTimeExperiments.Moles.MTestRunner">
+            <summary>Mole type of <see cref="T:DateTimeExperiments.TestRunner"/>
+            .</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MTestRunner.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MTestRunner.#ctor(DateTimeExperiments.TestRunner)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MTestRunner.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MTestRunner.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MTestRunner.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MTestRunner.CompareUtcValuesNullableOfDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.TestRunner.CompareUtcValues(System.Nullable`1{System.DateTime})"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MTestRunner.Constructor">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.TestRunner.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MTestRunner.ListUtcConvertedValues">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.TestRunner.ListUtcConvertedValues"/>
+            </summary>
+        </member>
+        <member name="T:DateTimeExperiments.Moles.MTestRunner.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MTestRunner.AllInstances.ListUtcConvertedValues">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.TestRunner.ListUtcConvertedValues"/>
+            </summary>
+        </member>
+        <member name="T:DateTimeExperiments.Moles.MUtils">
+            <summary>Mole type of <see cref="T:DateTimeExperiments.Utils"/>
+            .</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MUtils.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MUtils.#ctor(DateTimeExperiments.Utils)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.MUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.Constructor">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.CreateCustomTimeZoneInfoWithDstRules">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.CreateCustomTimeZoneInfoWithDstRules"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.CreateEasternTimeZoneWithCompleteAdjustmentRules">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.CreateEasternTimeZoneWithCompleteAdjustmentRules"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.GetUtcBclDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.GetUtcBcl(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.GetUtcDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.GetUtc(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.GetUtcTzDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.GetUtcTz(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.IsDaylightSavingTimeDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.IsDaylightSavingTime(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.IsDaylightSavingTimeUsingCustomTimeZoneDateTime">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.IsDaylightSavingTimeUsingCustomTimeZone(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="T:DateTimeExperiments.Moles.MUtils.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.MUtils.AllInstances.CreateEasternTimeZoneWithCompleteAdjustmentRules">
+            <summary>Sets the mole of <see cref="M:DateTimeExperiments.Utils.CreateEasternTimeZoneWithCompleteAdjustmentRules"/>
+            </summary>
+        </member>
+        <member name="T:DateTimeExperiments.Moles.STestRunner">
+            <summary>Stub type of <see cref="T:DateTimeExperiments.TestRunner"/>
+            .</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.STestRunner.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.STestRunner.InitializeStub">
+            <summary>Initializes a new instance of type STestRunner</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.STestRunner.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.STestRunner.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:DateTimeExperiments.Moles.SUtils">
+            <summary>Stub type of <see cref="T:DateTimeExperiments.Utils"/>
+            .</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.SUtils.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DateTimeExperiments.Moles.SUtils.InitializeStub">
+            <summary>Initializes a new instance of type SUtils</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.SUtils.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DateTimeExperiments.Moles.SUtils.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
